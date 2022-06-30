@@ -4,31 +4,219 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title></title>
         <style>
+            p,
+            h1,
+            h2,
+            h3,
+            h4 {
+                margin: 0;
+            }
+
+            body {
+                font-family: "Verdana", sans-serif;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4 {
+                font-family: "Georgia", "Times New Roman", serif;
+            }
+
+            .header__blank--left {
+                height: 10px;
+                border-right: 1px solid orange;
+            }
+
+            .header__blank--right {
+                height: 10px;
+                border-left: 1px solid orange;
+            }
+
+            .header__decor--top {
+                background-color: orange;
+                height: 10px;
+            }
+
+            .header__decor--bottom {
+                background-color: orange;
+                height: 50px;
+            }
+
+            .header__content {
+                border-top: 1px solid orange;
+                padding: 20px;
+            }
+
+            .header__content__title {
+                color: darkorange;
+                padding-bottom: 20px;
+                
+            }
+
+            .text__header {
+                padding-left: 50px;
+                padding-right: 30px;
+                border-right: 5px dotted darkorange;
+                color: darkorange;
+                text-transform: uppercase;
+            }
+
+            .text__content {
+                padding-left: 20px;
+            }
+
+            .footer {
+                border-top: 1px solid darkgray;
+                font-size: 12px;
+            }
+
+            .footer__unsubscribe {
+                font-size: 10px;
+                color: gray;
+            }
         </style>
     </head>
     <body>
-        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" style="background-color: gray;">
+        <table
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            height="100%"
+            width="100%"
+            style="background-color: gray"
+        >
             <tr>
                 <td align="center" valign="top">
-                    <table border="0" cellpadding="20" cellspacing="0" width="600" style="background-color: white;" id="email-container">
+                    <table
+                        border="0"
+                        cellpadding="20"
+                        cellspacing="0"
+                        width="600"
+                        style="background-color: white"
+                        id="email-container"
+                    >
                         <tr>
-                            <td class="welcome" align="center" valign="top">
-                                <h1 class="welcome__header">Welcome!</h1>
-                                <p class="welcome__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde inventore, repellendus magni aperiam pariatur aut maiores aspernatur esse. Soluta iste rerum optio harum in esse nesciunt est iusto quos eveniet!</p>
-                                <button class="welcome__button">Log in</button>
+                            <td>
+                                <table
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="100%"
+                                >
+                                    <tr>
+                                        <td class="header__blank--left" width="20%"></td>
+
+                                        <td
+                                            class="header__content"
+                                            align="center"
+                                            valign="top"
+                                            width="60%"
+                                            rowspan="2"
+                                        >
+                                            <h1 class="header__content__title">
+                                                Hello
+                                            </h1>
+
+                                            <p>
+                                                Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit.
+                                                Velit, veniam!
+                                            </p>
+                                        </td>
+
+                                        <td class="header__blank--right" width="20%"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td
+                                            class="header__decor--top"
+                                            width="20%"
+                                        ></td>
+                                        <td
+                                            class="header__decor--top"
+                                            width="20%"
+                                        ></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td
+                                            class="header__decor--bottom"
+                                            colspan="3"
+                                        ></td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
 
                         <tr>
                             <td align="center" valign="top">
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <table
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    width="100%"
+                                >
                                     <tr>
-                                        <td align="right" valign="center" width="50%">
+                                        <td
+                                            class="text__header"
+                                            align="right"
+                                            valign="center"
+                                            width="50%"
+                                        >
                                             <h1>Lorem ipsum dolor sit.</h1>
                                         </td>
-            
-                                        <td align="left" valign="top" width="50%">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum similique dolor deserunt vero modi recusandae placeat animi excepturi tenetur eligendi!</p>
+
+                                        <td
+                                            class="text__content"
+                                            align="left"
+                                            valign="top"
+                                            width="50%"
+                                        >
+                                            <p>
+                                                Lorem ipsum dolor sit amet
+                                                consectetur adipisicing elit.
+                                                Nobis omnis hic error delectus
+                                                eligendi? Laudantium architecto
+                                                modi aliquam facilis quibusdam
+                                                unde nostrum fuga molestiae
+                                                deserunt molestias quo, optio
+                                                illum possimus pariatur ipsa
+                                                eligendi dolores aperiam
+                                                recusandae doloremque alias.
+                                                Ipsum maiores ducimus quos?
+                                                Asperiores, dignissimos ratione
+                                                consequatur optio voluptas
+                                                dolores id.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center" valign="top">
+                                <table
+                                    border="0"
+                                    cellpadding="20"
+                                    cellspacing="0"
+                                    height="100%"
+                                    width="80%"
+                                >
+                                    <tr>
+                                        <td
+                                            class="footer"
+                                            align="center"
+                                            valign="top"
+                                        >
+                                            <p class="footer__contact">
+                                                abc@example.com
+                                            </p>
+                                            <p class="footer__unsubscribe">
+                                                Stop receive this email?
+                                                <a href="#">Unsubscribe</a>
+                                            </p>
                                         </td>
                                     </tr>
                                 </table>
