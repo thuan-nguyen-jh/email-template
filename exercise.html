@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title></title>
+        <style>
+            @font-face {
+                font-family: "Anton";
+                font-style: normal;
+                font-weight: normal;
+                src: url("https://raw.githubusercontent.com/thuan-nguyen-jh/email-template/main/font/Anton-Regular.ttf")
+                    format("truetype");
+            }
+
+            @font-face {
+                font-family: "SF Pro Text";
+                font-style: normal;
+                font-weight: bold;
+                src: url("https://raw.githubusercontent.com/thuan-nguyen-jh/email-template/main/font/SFProText-Bold.ttf")
+                    format("truetype");
+            }
+
+            @font-face {
+                font-family: "SF Pro Text";
+                font-style: italic;
+                font-weight: bold;
+                src: url("https://raw.githubusercontent.com/thuan-nguyen-jh/email-template/main/font/SFProText-BoldItalic.ttf")
+                    format("truetype");
+            }
+
+            @font-face {
+                font-family: "SF Pro Text";
+                font-style: normal;
+                font-weight: lighter;
+                src: url("https://raw.githubusercontent.com/thuan-nguyen-jh/email-template/main/font/SFProText-Light.ttf")
+                    format("truetype");
+            }
+            .logo {
+                width: 200px;
+                height: auto;
+            }
+
+            .hero {
+                padding-left: 40px;
+                background-image: url("https://raw.githubusercontent.com/thuan-nguyen-jh/email-template/main/asset/hero.png");
+                background-position: right;
+                font-family: "Anton", sans-serif;
+                font-size: 18pt;
+                color: white;
+                border-radius: 25px;
+            }
+
+            .date {
+                font-family: "SF Pro Text", sans-serif;
+                font-size: 16pt;
+                font-weight: bold;
+                font-style: italic;
+            }
+
+            .header1 {
+                color: #ffc95d;
+                font-family: "Anton", sans-serif;
+                font-size: 22pt;
+            }
+
+            .header2 {
+                font-family: "Anton", sans-serif;
+                font-size: 20pt;
+            }
+
+            .receipt {
+                font-family: "SF Pro Text", sans-serif;
+                font-size: 18pt;
+            }
+
+            .receipt th {
+                padding: 10px 0px;
+                border-bottom: #000 1px solid;
+                text-align: left;
+                font-weight: bold;
+            }
+
+            .receipt td {
+                padding: 8px 0px;
+                font-weight: lighter;
+            }
+
+            .card {
+                background-image: url("https://raw.githubusercontent.com/thuan-nguyen-jh/email-template/main/asset/card.png");
+                background-position: -30px;
+                color: white;
+                border-radius: 25px;
+                width: 170px;
+                height: 170px;
+
+                font-family: "Anton", sans-serif;
+            }
+
+            .card__x {
+                font-size: 30pt;
+            }
+
+            .card__name {
+                font-size: 13pt;
+            }
+
+            .thanks {
+                font-family: "Anton", sans-serif;
+                font-size: 20pt;
+                padding-bottom: 80px;
+            }
+
+            .footer {
+                padding-top: 50px;
+                padding-bottom: 30px;
+                background-color: #e5e6e7;
+                font-family: "SF Pro Text", sans-serif;
+                font-weight: lighter;
+                font-size: 14pt;
+            }
+
+            .footer a {
+                color: black;
+            }
+
+            @media only screen and (max-width: 600px) {
+                #email-container {
+                    width: 100% !important;
+                }
+
+                .card {
+                    background-position: left;
+                    width: 290px !important;
+                    height: 100px !important;
+                }
+
+                .card_wrapper {
+                    display: block !important;
+                    padding: 20px !important;
+                    width: 100% !important;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <table
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            height="100%"
+            width="100%"
+            style="background-color: lightgray"
+        >
+            <tr>
+                <td align="center" valign="top">
+                    <table
+                        border="0"
+                        cellpadding="20"
+                        cellspacing="0"
+                        width="600"
+                        style="background-color: white"
+                        id="email-container"
+                    >
+                        <tr>
+                            <td>
+                                <table
+                                    border="0"
+                                    align="center"
+                                    valign="center"
+                                    cellpadding="50"
+                                    cellspacing="0"
+                                >
+                                    <tr>
+                                        <td align="center">
+                                            <img class="logo"
+                                                src="https://raw.githubusercontent.com/thuan-nguyen-jh/email-template/main/asset/logo.png"
+                                                alt="logo"
+                                            />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table
+                                    border="0"
+                                    align="center"
+                                    valign="center"
+                                    cellpadding="15"
+                                    cellspacing="0"
+                                    width="100%"
+                                >
+                                    <tr>
+                                        <td
+                                            class="hero"
+                                            align="left"
+                                            valign="bottom"
+                                            width="100%"
+                                            height="250"
+                                        >
+                                            KENDRA JENNINGS
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="date" align="right">
+                                            Maverick since May 2019
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="header1" align="center">
+                                            BE YOURSELF, IT PAYS OFF!
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="header2" align="center">
+                                            Thanks for being an inspiration to
+                                            others
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table
+                                    class="receipt"
+                                    border="0"
+                                    align="center"
+                                    valign="center"
+                                    cellspacing="0"
+                                    width="65%"
+                                >
+                                    <tr>
+                                        <th>Total payout</th>
+                                        <th></th>
+                                        <th>$75</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Number of sessions</td>
+                                        <td></td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Average price</td>
+                                        <td></td>
+                                        <td>$15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Average turnout</td>
+                                        <td></td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tax</td>
+                                        <td>-</td>
+                                        <td>$75</td>
+                                    </tr>
+                                    <tr>
+                                        <td>VERSD fee</td>
+                                        <td>-</td>
+                                        <td>$75</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table
+                                    border="0"
+                                    align="center"
+                                    valign="center"
+                                    cellspacing="0"
+                                    width="100%"
+                                >
+                                    <tr>
+                                        <td class="card_wrapper">
+                                            <table
+                                                class="card"
+                                                border="0"
+                                                align="center"
+                                                valign="center"
+                                                cellpadding="15"
+                                                cellspacing="0"
+                                            >
+                                                <tr>
+                                                    <td
+                                                        class="card__x"
+                                                        align="center"
+                                                        valign="bottom"
+                                                    >
+                                                        x3
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td
+                                                        class="card__name"
+                                                        valign="bottom"
+                                                    >
+                                                        TRICKING
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td class="card_wrapper">
+                                            <table
+                                                class="card"
+                                                border="0"
+                                                align="center"
+                                                valign="center"
+                                                cellpadding="15"
+                                                cellspacing="0"
+                                            >
+                                                <tr>
+                                                    <td
+                                                        class="card__x"
+                                                        align="center"
+                                                        valign="bottom"
+                                                    >
+                                                        x10
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td
+                                                        class="card__name"
+                                                        valign="bottom"
+                                                    >
+                                                        BOXING
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td class="card_wrapper">
+                                            <table
+                                                class="card"
+                                                border="0"
+                                                align="center"
+                                                valign="center"
+                                                cellpadding="15"
+                                                cellspacing="0"
+                                            >
+                                                <tr>
+                                                    <td
+                                                        class="card__x"
+                                                        align="center"
+                                                        valign="bottom"
+                                                    >
+                                                        x1
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td
+                                                        class="card__name"
+                                                        valign="bottom"
+                                                    >
+                                                        DANCE
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="thanks">Your students thank you!</td>
+                        </tr>
+                        <tr>
+                            <td  class="footer">
+                                <table
+                                    border="0"
+                                    align="center"
+                                    valign="center"
+                                    cellspacing="0"
+                                    width="100%"
+                                >
+                                    <tr>
+                                        <td align="center">
+                                            <a href="#"> Contact us</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            Visit us at
+                                            <a href="#">www.versd.co</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            Versd Technologies Inc.
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
