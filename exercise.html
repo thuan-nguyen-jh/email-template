@@ -137,7 +137,13 @@
                 .card_wrapper {
                     display: block !important;
                     padding: 20px !important;
-                    width: 100% !important;
+                    width: auto !important;
+                }
+            }
+
+            @media only screen and (max-width: 400px) {
+                .card {
+                    width: 80% !important;
                 }
             }
         </style>
@@ -330,7 +336,7 @@
                                                 </tr>
                                             </table>
                                         </td>
-                                        <td class="card_wrapper">
+                                        <td class="card_wrapper" align="center">
                                             <table
                                                 class="card"
                                                 border="0"
